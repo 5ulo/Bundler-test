@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			// assets, images, data files
+			"path": "src"
+		},
+		{
+			// partials, templates, helpers
+			"path": "dist"
+		},
+		{
+			// everything
+			"name": "root",
+			"path": "."
+		}
+	],
+	"settings": {
+		"window.title": "Bundler JSON @root test",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"src/": true,
+			"dist/": true
+		},
+	}
+}

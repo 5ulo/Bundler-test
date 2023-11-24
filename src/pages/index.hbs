@@ -1,0 +1,12 @@
+{{assign title="Home"}}
+{{#partial 'body'}}
+
+{{#each posts}}
+<h1>{{title}}</h1>
+<div>@root: {{@root.foo}}</div>
+<div>traverse: {{../foo}}</div>
+{{/each}}
+
+{{/partial}}
+
+{{>layout/default}}
